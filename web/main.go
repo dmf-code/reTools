@@ -4,6 +4,8 @@ import (
 	"reTools/web/app/routers"
 )
 
+//go:generate go version
+
 func main() {
 
 	r := routers.InitRouter()
